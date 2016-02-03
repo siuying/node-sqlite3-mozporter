@@ -6,7 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": {
+    "name": "Francis Chong",
+    "email": "francis@ignition.hk"
+  },
   "license": "MIT",
   "dependencies": {
     "sqlite3": "^3.1.1"
