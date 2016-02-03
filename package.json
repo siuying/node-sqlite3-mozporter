@@ -4,7 +4,7 @@
   "description": "Porter stemmer from Mozilla Thunderbird for sqlite3.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "MIT",
@@ -12,6 +12,8 @@
     "sqlite3": "^3.1.1"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "node-gyp": "^3.2.1",
     "node-pre-gyp": "^0.6.19"
   }
