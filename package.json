@@ -1,5 +1,5 @@
 {
-  "name": "node-sqlite3-mozporter",
+  "name": "sqlite3-mozporter",
   "version": "1.0.0",
   "description": "Porter stemmer from Mozilla Thunderbird for sqlite3.",
   "main": "index.js",
