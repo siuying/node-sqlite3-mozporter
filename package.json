@@ -1,0 +1,18 @@
+{
+  "name": "node-sqlite3-mozporter",
+  "version": "1.0.0",
+  "description": "Porter stemmer from Mozilla Thunderbird for sqlite3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.2.1",
+    "node-pre-gyp": "^0.6.19"
+  }
+}
