@@ -4,6 +4,7 @@
   "description": "Porter stemmer from Mozilla Thunderbird for sqlite3.",
   "main": "index.js",
   "scripts": {
+    "build": "node-gyp clean configure build",
     "test": "mocha"
   },
   "author": {

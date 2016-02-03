@@ -145,6 +145,6 @@ struct sqlite3_tokenizer_cursor {
   /* Tokenizer implementations will typically add additional fields */
 };
 
-const sqlite3_tokenizer_module* sqlite3Fts3PorterTokenizerModuleInit();
+void sqlite3Fts3PorterTokenizerModule(sqlite3_tokenizer_module const**ppModule);
 
 #endif /* _FTS3_TOKENIZER_H_ */
