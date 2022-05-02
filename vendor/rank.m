@@ -110,8 +110,3 @@ int sqlite3_extension_init(sqlite3 *db, char **pzErrMsg, const sqlite3_api_routi
     sqlite3_create_function(db, "mozporter", -1, SQLITE_ANY, 0, mozporterfunc, 0, 0);
     return 0;
 }
-
-void rank_init (int verbose) {
-    /* used when SQLite initializes SpatiaLite via statically linked lib */
-    sqlite3_auto_extension((void (*)(void)) sqlite3_extension_init);
-}
